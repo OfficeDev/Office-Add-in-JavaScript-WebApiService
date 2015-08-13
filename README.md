@@ -31,7 +31,7 @@ The sample solution contains the following files:
 
 - WebApi SampleManifest.xml: The manifest file for the Office add-in.
 - App\Home\Home.html: The HTML user interface for the mail add-in for Office.
-- App\Home\Home.js: The JavaScript file that handles sending the attachment information to the remote Attachment service included with this sample.
+- App\Home\Home.js: The JavaScript file that builds and sends the feedback request to the service.
 - Controllers\SendFeedbackController.cs: The business logic for the sample Web API service.
 - App_Start\WebApiConfig.cs: Binds the default routing for the Web API service.
 
@@ -48,7 +48,7 @@ The Office add-in makes an AJAX request to the web service, passing in data from
 The sample will run right out of the box, but it won't be able to send feedback unless you configure appropriate credentials in the "SendFeedbackController.cs" file (in the Controllers folder of the web project). Update the following constants with actual values:
 
     ```c#
-	const string MailingAddressFrom = "app_name@contoso.com ";
+    const string MailingAddressFrom = "add-in_name@contoso.com ";
     const string MailingAddressTo = "dev_team@contoso.com";
     const string SmtpHost = "smtp.contoso.com";
     const int SmtpPort = 587;
