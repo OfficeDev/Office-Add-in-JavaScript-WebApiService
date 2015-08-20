@@ -74,8 +74,11 @@ The sample will run right out of the box, but it won't be able to send feedback 
 <a name="additional-resources"></a>
 ## Additional resources ##
 
+- [Office Add-ins](https://msdn.microsoft.com/library/office/jj220060.aspx) documentation on MSDN
 - [Web API: The Official Microsoft ASP.NET Site](http://www.asp.net/web-api)
 - [Walkthrough: Create a web service for an app for Office using the ASP.NET Web API](http://blogs.msdn.com/b/officeapps/archive/2013/06/05/create-a-web-service-for-an-app-for-office-using-the-asp-net-web-api.aspx) (applies to an earlier version of this sample)
+- [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
+
 
 ## Copyright
 Copyright (c) 2015 Microsoft. All rights reserved.
