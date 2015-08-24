@@ -90,7 +90,6 @@
     <Content Include="App\Home\Home.js" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.min.css" />
-    <Content Include="Content\Office.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\Close.png" />
     <Content Include="packages.config" />

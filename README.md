@@ -21,7 +21,7 @@ This sample demonstrates how to create and query an ASP.NET Web API service from
 This sample requires the following:  
 
   - Excel 2013, Word 2013, PowerPoint 2013, or Project 2013.
-  - Visual Studio 2013 with Update 5 or Visual Studio 2015. 
+  - Visual Studio 2013 (Update 5) or Visual Studio 2015, with Microsoft Office Developer Tools. 
   - Any browser that supports ECMAScript 5.1, HTML5, and CSS3, such as Internet Explorer 9, Chrome 13, Firefox 5, Safari 5.0.6, or a later version of these browsers.
   - Familiarity with JavaScript programming and web services.
 
@@ -29,11 +29,15 @@ This sample requires the following:
 ## Key components of the sample
 The sample solution contains the following key files:
 
+
+**WebApi Sample** project  
 - WebApi SampleManifest.xml: The manifest file for the Office Add-in.
+
+**WebApi SampleWeb** project  
 - App\Home\Home.html: The HTML user interface for the add-in.
 - App\Home\Home.js: The logic that builds and sends the feedback request to the web service.
-- Controllers\SendFeedbackController.cs: The business logic for the sample Web API service.
 - App_Start\WebApiConfig.cs: Binds the default routing for the Web API service.
+- Controllers\SendFeedbackController.cs: The business logic for the sample Web API service.
 
 <a name="codedescription"></a>
 ##Description of the code
@@ -45,15 +49,15 @@ The Office Add-in makes an AJAX request to the web service, passing in data from
 ## Build and debug ##
 The sample will run right out of the box, but it won't be able to send feedback unless you configure appropriate credentials. To configure the credentials, open SendFeedbackController.cs (in the Controllers folder of the web project) and update the following constants with actual values:
 
-    ```c#
-    const string MailingAddressFrom = "add-in_name@contoso.com ";
-    const string MailingAddressTo = "dev_team@contoso.com";
-    const string SmtpHost = "smtp.contoso.com";
-    const int SmtpPort = 587;
-    const bool SmtpEnableSsl = true;
-    const string SmtpCredentialsUsername = "username";
-    const string SmtpCredentialsPassword = "password";
-	```
+```c#
+const string MailingAddressFrom = "add-in_name@contoso.com ";
+const string MailingAddressTo = "dev_team@contoso.com";
+const string SmtpHost = "smtp.contoso.com";
+const int SmtpPort = 587;
+const bool SmtpEnableSsl = true;
+const string SmtpCredentialsUsername = "username";
+const string SmtpCredentialsPassword = "password";
+```
 
 1. Open the solution in Visual Studio.
 2. Press F5 to build and deploy the sample add-in to the client that's specified as the start document (by default, Excel). To change this setting in the Properties view (**View > Properties Window**), click the WebApi Sample project in Solution Explorer and select your preferred client.
