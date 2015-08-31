@@ -31,13 +31,13 @@ The sample solution contains the following key files:
 
 
 **WebApi Sample** project  
-- WebApi SampleManifest.xml: The manifest file for the Office Add-in.
+- [WebApi Sample.xml](https://github.com/OfficeDev/Office-Add-in-JavaScript-WebApiService/blob/master/WebApi%20Sample/WebApi%20SampleManifest/WebApi%20Sample.xml): The manifest file for the Office Add-in.
 
 **WebApi SampleWeb** project  
-- App\Home\Home.html: The HTML user interface for the add-in.
-- App\Home\Home.js: The logic that builds and sends the feedback request to the web service.
-- App_Start\WebApiConfig.cs: Binds the default routing for the Web API service.
-- Controllers\SendFeedbackController.cs: The business logic for the sample Web API service.
+- [App\Home\Home.html](https://github.com/OfficeDev/Office-Add-in-JavaScript-WebApiService/blob/master/WebApi%20SampleWeb/App/Home/Home.html): The HTML user interface for the add-in.
+- [App\Home\Home.js](https://github.com/OfficeDev/Office-Add-in-JavaScript-WebApiService/blob/master/WebApi%20SampleWeb/App/Home/Home.js): The logic that builds and sends the feedback request to the web service.
+- [App_Start\WebApiConfig.cs](https://github.com/OfficeDev/Office-Add-in-JavaScript-WebApiService/blob/master/WebApi%20SampleWeb/App_Start/WebApiConfig.cs): Binds the default routing for the Web API service.
+- [Controllers\SendFeedbackController.cs](https://github.com/OfficeDev/Office-Add-in-JavaScript-WebApiService/blob/master/WebApi%20SampleWeb/Controllers/SendFeedbackController.cs): The business logic for the sample Web API service.
 
 <a name="codedescription"></a>
 ##Description of the code
