@@ -60,7 +60,8 @@ const string SmtpCredentialsPassword = "password";
 ```
 
 1. Open the solution in Visual Studio.
-2. Press F5 to build and deploy the sample add-in to the client that's specified as the start document (by default, Excel). To change this setting in the Properties view (**View > Properties Window**), click the WebApi Sample project in Solution Explorer and select your preferred client.
+2. Press F5 to build and deploy the sample add-in to the client that's specified as the start document (by default, Excel). To change this setting, click the WebApi Sample project in Solution Explorer and select your preferred Office application.
+3. On the **Home** ribbon, click the **Open** button in the **Web API** group.
 3. In the add-in, choose a rating in the drop-down list, enter some feedback, and click **Send it!** A toast notification opens to tell you whether your feedback was successfully sent.
 
 
