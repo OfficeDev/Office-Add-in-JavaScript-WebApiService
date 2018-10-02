@@ -12,7 +12,7 @@
 * [Additional resources](#additional-resources)
 
 <a name="summary"></a>
-##Summary
+## Summary
 This sample demonstrates how to create and query an ASP.NET Web API service from an Office Add-in. The sample is comprised of a "Send Feedback" page, which lets a user submit feedback, and uses a Web API service to send it to the developer team. 
 
 <a name="prerequisites"></a>
@@ -40,7 +40,7 @@ The sample solution contains the following key files:
 - [Controllers\SendFeedbackController.cs](https://github.com/OfficeDev/Office-Add-in-JavaScript-WebApiService/blob/master/WebApi%20SampleWeb/Controllers/SendFeedbackController.cs): The business logic for the sample Web API service.
 
 <a name="codedescription"></a>
-##Description of the code
+## Description of the code
 The Office Add-in makes an AJAX request to the web service, passing in data from the client-side JavaScript code. The Web API controller receives the data, performs an action, and returns the results back to the caller. The AJAX call then completes, 
  displaying the results or showing an error message.
 
@@ -66,12 +66,12 @@ const string SmtpCredentialsPassword = "password";
 
 
 <a name="troubleshooting"></a>
-##Troubleshooting
+## Troubleshooting
 
 - If the add-in fails to send feedback (shows a notification message with "Sorry, your feedback could not be sent"), check that you configured an appropriate email address in SendFeedbackController.cs. Alternatively, you can remove the mail-sending code, and/or replace it with a different form of sending feedback (e.g., logging to a database).
 
 <a name="questions"></a>
-##Questions and comments##
+## Questions and comments ##
 
 - If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Office-Add-in-JavaScript-WebApiService/issues).
 - Questions about Office Add-in development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-addins). Make sure that your questions or comments are tagged with [office-addins].
