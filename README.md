@@ -1,3 +1,18 @@
+---
+topic: sample
+products:
+- Excel
+- PowerPoint
+- Word
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/12/2015 3:41:04 PM
+---
 # Office Add-in: Create a web service for an Office Add-in using the ASP.NET Web API
 
 **Table of contents**
